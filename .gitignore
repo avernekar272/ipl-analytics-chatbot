@@ -1,0 +1,24 @@
+# AWS credentials — NEVER commit
+.env
+*.env
+.streamlit/secrets.toml
+
+# Raw data — too large for GitHub
+raw_data/
+*.parquet
+*.csv
+*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Mac
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Conda
+*.conda
